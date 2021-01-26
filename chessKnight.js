@@ -9,7 +9,7 @@ knightBtn.addEventListener("click", showPossibleMoves)
 //this is the function tha allows the total nubmer of moves to be dsiplaed to the UI/console
 function showPossibleMoves() {
   let cell = form.value
-  // convert letter to number
+  // convert letter to number   // this is the total size of the grid  8x8
   let x = parseInt(cell.substring(0,1).charCodeAt() - 64)
   let y = parseInt(cell.substring(1,2))
 
